@@ -8,7 +8,7 @@ const jwt = require('jsonwebtoken');
 const Order = require('../models/Order');
 
 const {ACCESS_TOKEN_SECRET} = require('../../configs/JWT/index');
-const saltRounds = parseInt(process.env.saltRounds);
+const saltRounds = 10;
 const { userRole, adminRole } = require('../../configs/datas_roles/roles');
 const Apartment = require('../models/Apartment');
 const { slugify } = require('../../configs/datas_roles/stringToSlug');

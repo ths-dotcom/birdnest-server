@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken');
-const ACCESS_TOKEN_SECRET = process.env.ACCESS_TOKEN_SECRET;
+const ACCESS_TOKEN_SECRET = "hihi";
 
 function authToken(req, res, next) {
     // lấy token từ header
